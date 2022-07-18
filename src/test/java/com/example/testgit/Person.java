@@ -1,6 +1,7 @@
 package com.example.testgit;
 
 import com.alibaba.fastjson.annotation.JSONField;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.junit.Test;
 
@@ -12,6 +13,7 @@ import java.util.Date;
  */
 // 自动生成get set等方法
 @Data
+@AllArgsConstructor
 public class Person {
     @JSONField(name = "AGE")
     private int age;
