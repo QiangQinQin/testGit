@@ -23,8 +23,12 @@
         </dependency>
 
         <dependency>
+<<<<<<< HEAD
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+=======
+            <groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-test</artifactId>
+>>>>>>> origin/feature-01
             <scope>test</scope>
         </dependency>
 
@@ -46,6 +50,7 @@
             <version>1.18.4</version>
             <scope>provided</scope>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
@@ -56,6 +61,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
         </dependency>
+=======
+>>>>>>> origin/feature-01
 
     </dependencies>
 
